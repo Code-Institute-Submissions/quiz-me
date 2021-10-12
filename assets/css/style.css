@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: lato, sans-serif;
+    font-weight: 400;
+    color: black;
+    background-color: rgb(45, 0, 128);
+}
+
+/* Headings and logo */
+h1 {
+    font-family: roboto, sans-serif;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 4rem;
+    padding: 40px;
+}
+
+/* Quiz section */
+#quiz-container {
+    height: 300px;
+}
+
+.choose-quiz {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+#first-category, #third-category {
+    border: 3px solid #6F7C77;
+    padding-top: 20px;
+    width: 20%;
+    float: left;
+
+}
+
+#second-category, #fourth-category {
+    border: 3px solid #6F7C77;
+    padding-top: 20px;
+    width: 20%;
+    float: right;
+}
+
+button {
+    text-align: center;
+}
